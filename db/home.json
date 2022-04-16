@@ -1,0 +1,38 @@
+[
+  {
+    "price": 300000,
+    "address": "1234 Main Street",
+    "description": "From the outside this house looks very elegant. It has been built with walnut wood and has mahogany wooden decorations. Large, octagon windows add to the overall style of the house and have been added to the house in a mostly symmetric way.",
+    "location": "Jamaica, NY"
+  },
+  {
+    "price": 450000,
+    "address": "4569 Cottage Road",
+    "description": "This house is located in a quiet area and has been recently renovated. The house has been recently painted and has a nice exterior view.",
+    "location": "Forest Hills, NY"
+  },
+  {
+    "price": 100000,
+    "address": "3 E. Prospect St.",
+    "description": "This house is located in the heart of the city and is very close to the subway. It is a large, two bedroom, two bath house with a large living room, a kitchen, a dining room, a library and a large backyard.",
+    "location": "Woodhaven, NY"
+  },
+  {
+    "price": 100000,
+    "address": "598 NE. 4th Dr",
+    "description": "The house is equipped with a modern kitchen and one large bathroom, it also has a small living room, two bedrooms, a roomy dining room.",
+    "location": "Glendale, NY"
+  },
+  {
+    "price": 200000,
+    "address": "370 Jockey Hollow Drive",
+    "description": "The house is equipped with a modern kitchen and one large bathroom, it also has a small living room, two bedrooms, a roomy dining room, a library and a cozy basement.",
+    "location": "Forest Hills, NY"
+  },
+  {
+    "price": 600000,
+    "address": "9889 Ridgeview Rd",
+    "description": "This house is one of the most popular houses with everything you need in one place. It is a large, three bedroom, three bath house with a large living room, a kitchen, a dining room, a library.",
+    "location": "Jamaica, NY"
+  }
+]
