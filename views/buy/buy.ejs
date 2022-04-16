@@ -1,0 +1,17 @@
+<article class="conatiner">
+    <div class="homes__container">
+        <% for (let home of homes) { %>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-price"><%= home.price %></p>
+                  <h5 class="card-title"><%= home.name %></h5>
+                  <p class="card-text"><%= home.description %></p>
+                  <p class="card-location"><%= home.location %></p>
+                  <a href="#" class="btn btn-primary">View More</a>
+                </div>
+              </div>
+        <% } %>
+    </div>
+</article>
+    
