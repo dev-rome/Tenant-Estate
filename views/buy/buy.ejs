@@ -1,17 +1,72 @@
-<article class="conatiner">
-    <div class="homes__container">
-        <% for (let home of homes) { %>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-price"><%= home.price %></p>
-                  <h5 class="card-title"><%= home.name %></h5>
-                  <p class="card-text"><%= home.description %></p>
-                  <p class="card-location"><%= home.location %></p>
-                  <a href="#" class="btn btn-primary">View More</a>
-                </div>
-              </div>
-        <% } %>
+<article class="conatiner mb-5">
+  <h1 class="search-title">Search properties to buy</h1>
+  <form action="/buy" method="GET" class="search-form" id="search">
+    <div class="form-group">
+      <label for="location" class="location">Location</label>
+      <input
+        type="text"
+        class="form-control"
+        id="location"
+        name="location"
+        placeholder="Location"
+      />
     </div>
+    <div class="form-group">
+      <label for="Price" class="price">Price</label>
+      <input
+        type="number"
+        class="form-control"
+        id="price"
+        name="price"
+        placeholder="Price"
+      />
+    </div>
+    <div class="form-group">
+      <label for="Property-Type" class="property-type">Property Type</label>
+      <input
+        type="text"
+        class="form-control"
+        id="property-type"
+        name="property-type"
+        placeholder="Property Type"
+      />
+    </div>
+    <button class="btn btn-primary search-btn" type="submit" form="search" value="Submit">Search</button>
+  </form>
+
+  <div class="homes__container d-flex">
+    <% for (let home of homes) { %>
+    <li>
+      <a href="" class="home__list">
+        <div class="card h-100" style="width: 18rem">
+          <img
+            src="<%= home.image %>"
+            class="card-img-top"
+            alt="images of homes to buy"
+          />
+          <div class="card-body">
+            <p class="card-price">$<%= home.price %></p>
+            <h5 class="card-name"><%= home.name %></h5>
+            <p class="card-location"><%= home.location %></p>
+            <hr />
+          </div>
+          <div class="card-info">
+            <p class="card-info__text">
+              <i class="fa-solid fa-bed bed"></i>
+              <%= home.bedrooms %> bed
+            </p>
+            <p class="card-info__text">
+              <i class="fa-solid fa-bath bath"></i>
+              <%= home.bathrooms %> bathrooms
+            </p>
+            <p class="card-info__text">
+              <i class="fa-solid fa-ruler sqft"></i>
+              <%= home.sqft %> sqft
+            </p>
+          </div>
+        </div>
+      </a>
+    </li>
+    <% } %>
+  </div>
 </article>
-    
