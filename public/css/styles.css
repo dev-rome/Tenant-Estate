@@ -5,3 +5,125 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f8f9fa;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1140px;
+}
+
+.navbar-end {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+} 
+
+.search-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  border-right: 1px solid #dcdddf;
+}
+
+.form-control {
+  width: 75%;
+  padding: 0;
+}
+
+input {
+  text-align: left;
+}
+
+input[type="text"], input[type="number"] {
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.location, .price, .property-type {
+  font-size: 0.8rem;
+  color: #868e96;
+}
+
+.home-user {
+  color: #0d6efd;
+}
+
+.nav-text {
+  border-top: 1px solid transparent;
+  font-size: 1.1rem;
+}
+
+.nav-text:hover { 
+  border-top: 1px solid #0d6efd;
+  color: #0d6efd!important;
+
+}
+
+.homes__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.home__list {
+  color: #212529;
+}
+
+.home__list:hover {
+  color: #212529;
+}
+
+.card-name {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+.card-location {
+  font-size: 0.8rem;
+  color: #949596;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-info__text {
+  font-size: 0.8rem;
+}
+
+.bed, .bath, .sqft, .card-price {
+  color: #0d6efd;
+}
