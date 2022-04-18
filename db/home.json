@@ -1,38 +1,101 @@
 [
   {
+    "image": "https://images.unsplash.com/photo-1630650231815-a567e2ed26cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     "price": 300000,
-    "address": "1234 Main Street",
+    "name": "Brown Wood",
+    "location": "1234 Main Street, New York, NY",
     "description": "From the outside this house looks very elegant. It has been built with walnut wood and has mahogany wooden decorations. Large, octagon windows add to the overall style of the house and have been added to the house in a mostly symmetric way.",
-    "location": "Jamaica, NY"
+    "properType": "House",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "sqft": "2,000"
   },
   {
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     "price": 450000,
-    "address": "4569 Cottage Road",
+    "name": "Cotton Mond",
+    "location": "4569 Cottage Road, New Jersey, NJ",
     "description": "This house is located in a quiet area and has been recently renovated. The house has been recently painted and has a nice exterior view.",
-    "location": "Forest Hills, NY"
+    "properType": "House",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "sqft": "4,000"
   },
   {
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aG9tZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
     "price": 100000,
-    "address": "3 E. Prospect St.",
+    "name": "Springless",
+    "location": "3 E. Prospect St, Alabama, AL",
     "description": "This house is located in the heart of the city and is very close to the subway. It is a large, two bedroom, two bath house with a large living room, a kitchen, a dining room, a library and a large backyard.",
-    "location": "Woodhaven, NY"
+    "properType": "House",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "sqft": "3,500"
   },
   {
+    "image": "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGhvbWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
     "price": 100000,
-    "address": "598 NE. 4th Dr",
+    "name": "Apple Hill",
+    "location": "598 NE. 4th Dr, New York, NY",
     "description": "The house is equipped with a modern kitchen and one large bathroom, it also has a small living room, two bedrooms, a roomy dining room.",
-    "location": "Glendale, NY"
+    "properType": "House",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "sqft": "1,500"
   },
   {
+    "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fHJlbnQlMjBob21lc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
     "price": 200000,
-    "address": "370 Jockey Hollow Drive",
+    "name": "Hamils Worth",
+    "location": "370 Jockey Hollow Drive, Pennsylvania, PA",
     "description": "The house is equipped with a modern kitchen and one large bathroom, it also has a small living room, two bedrooms, a roomy dining room, a library and a cozy basement.",
-    "location": "Forest Hills, NY"
+    "properType": "House",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "sqft": "2,500"
   },
   {
+    "image": "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fGhvbWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
     "price": 600000,
-    "address": "9889 Ridgeview Rd",
+    "name": "Richfield",
+    "location": "9889 Ridgeview Rd, New York, NY",
     "description": "This house is one of the most popular houses with everything you need in one place. It is a large, three bedroom, three bath house with a large living room, a kitchen, a dining room, a library.",
-    "location": "Jamaica, NY"
+    "properType": "House",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "sqft": "6,000"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHJlbnQlMjBob21lc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "price": 100000,
+    "name": "Roosevelt Manor",
+    "location": "943 E. Main St, Virginia, VA",
+    "description": "Roosevelt Manor is a large, two bedroom, two bath house with a large living room, a kitchen, a dining room, a library and a large backyard.",
+    "properType": "House",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "sqft": "2,000"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "price": 350000,
+    "name": "Town Rich",
+    "location": "4589 W. North Ave, Virginia, VA",
+    "description": "Townrich is a medium sized, three bedroom, two bath house with a large living room, a kitchen, a dining room, and a medium size backyard.",
+    "properType": "House",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "sqft": "5,000"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "price": 1000000,
+    "name": "Fuller More",
+    "location": "12 S. More Ave, Florida, FL",
+    "description": "Fullermore is a large, 4 bedroom, 3 bath house with a large living room, a kitchen, a dining room, a library, large backyard, and a large pool.",
+    "properType": "House",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "sqft": "8,500"
   }
 ]
