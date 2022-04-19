@@ -22,22 +22,19 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.container {
-  width: 90%;
-  max-width: 1140px;
-}
-
 .navbar-end {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-} 
+}
+
+/* all homes styling */
 
 .search-title {
   font-size: 2rem;
   font-weight: bold;
-  margin: 1rem 0;
-  font-family: 'Inter', sans-serif;
+  margin-bottom: 1rem;
+  font-family: "Inter", sans-serif;
 }
 
 .search-form {
@@ -63,14 +60,17 @@ input {
   text-align: left;
 }
 
-input[type="text"], input[type="number"] {
+input[type="text"],
+input[type="number"] {
   font-size: 0.9rem;
   font-weight: bold;
   border: none;
   outline: none;
 }
 
-.location, .price, .property-type {
+.location,
+.price,
+.property-type {
   font-size: 0.8rem;
   color: #868e96;
 }
@@ -84,10 +84,9 @@ input[type="text"], input[type="number"] {
   font-size: 1.1rem;
 }
 
-.nav-text:hover { 
+.nav-text:hover {
   border-top: 1px solid #0d6efd;
-  color: #0d6efd!important;
-
+  color: #0d6efd !important;
 }
 
 .homes__container {
@@ -106,7 +105,7 @@ input[type="text"], input[type="number"] {
 }
 
 .card-name {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
 }
 
@@ -124,6 +123,88 @@ input[type="text"], input[type="number"] {
   font-size: 0.8rem;
 }
 
-.bed, .bath, .sqft, .card-price {
+.bed,
+.bath,
+.sqft,
+.card-price {
   color: #0d6efd;
+}
+
+/* single home styling */
+
+.back-home {
+  font-size: 0.9rem;
+}
+
+.left-angle {
+  margin-right: 0.4rem;
+}
+
+.home-title {
+  font-size: 2.7rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.home-location {
+  font-size: 1rem;
+  color: #868e96;
+}
+
+.image-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.side-image {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.home-image {
+  width: 65%;
+}
+
+.home-image-side {
+  width: 100%;
+}
+
+.home-image, .home-image-side {
+  border-radius: 5px;
+}
+
+.home-image:hover, .home-image-side:hover {
+  cursor: pointer;
+  opacity: 0.8;  
+}
+
+.home-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dcdddf;
+  border-radius: 5px;
+  width: 65%;
+  margin-bottom: 2rem;
+}
+
+.home-info-text {
+  margin: 0;
+  padding: 1rem;
+}
+
+
+.home-description-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.home-description-text {
+  font-size: 1rem;
+  width: 65%;
+  margin-bottom: 3rem;
 }
