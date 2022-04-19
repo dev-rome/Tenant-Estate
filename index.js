@@ -4,7 +4,8 @@ const app = express();
 const path = require("path");
 const expressLayouts = require("express-ejs-layouts");
 const methodOverride = require("method-override");
-const homeController = require("./controller/homeController");
+const homeController = require("./controller/buyController");
+const rentController = require("./controller/rentController");
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
@@ -17,6 +18,7 @@ app.use(expressLayouts);
 app.use(express.static(__dirname + "/public"));
 
 app.use("/buy", homeController);
+app.use("/rent", rentController);
 
 app.listen(app.get("port"), () => {
   console.log(`Server running on Port: ${app.get("port")}`);
