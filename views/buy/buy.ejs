@@ -1,4 +1,4 @@
-<article class="conatiner mb-5">
+<article class="conatiner-xl mb-5">
   <h1 class="search-title">Search properties to buy</h1>
   <form action="/buy" method="GET" class="search-form" id="search">
     <div class="form-group">
@@ -31,19 +31,21 @@
         placeholder="Property Type"
       />
     </div>
-    <button class="btn btn-primary search-btn" type="submit" form="search" value="Submit">Search</button>
+    <button type="submit" class="btn btn-primary">Search</button>
   </form>
 
   <div class="homes__container d-flex">
     <% for (let home of homes) { %>
     <li>
-      <a href="" class="home__list">
+      <a href="/buy/<%= home._id %>" class="home__list">
         <div class="card h-100" style="width: 18rem">
-          <img
-            src="<%= home.image %>"
-            class="card-img-top"
-            alt="images of homes to buy"
-          />
+          <figure>
+            <img
+              src="<%= home.image %>"
+              class="card-img-top"
+              alt="images of homes to buy"
+            />
+          </figure>
           <div class="card-body">
             <p class="card-price">$<%= home.price %></p>
             <h5 class="card-name"><%= home.name %></h5>

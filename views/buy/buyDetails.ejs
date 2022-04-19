@@ -1,0 +1,31 @@
+<article class="container">
+  <a href="/buy" class="back-home"><i class="fa-solid fa-angle-left left-angle mb-3"></i>Back to home</a>
+  <h1 class="home-title"><%= home.name %></h1>
+  <p class="home-location"><%= home.location %></p>
+  <figure class="image-container col">
+    <img src="<%= home.image %>" class="home-image" alt="<%= home.name %>">
+    <aside class="side-image">
+        <img src="<%= home.image %>" class="home-image-side" alt="<%= home.name %>">
+        <img src="<%= home.image %>" class="home-image-side" alt="<%= home.name %>">
+    </aside>
+  </figure>
+   <div class="home-info">
+     <p class="home-info-text"> 
+        <i class="fa-solid fa-bed bed"></i>
+        <%= home.bedrooms %> bed
+     </p>
+     <p class="home-info-text"> 
+      <i class="fa-solid fa-bath bath"></i>
+        <%= home.bathrooms %> bathrooms
+      </p>
+      <p class="home-info-text"> 
+        <i class="fa-solid fa-ruler sqft"></i>
+        <%= home.sqft %> sqft
+      </p> 
+   </div>
+
+  <div class="home-description">
+    <h2 class="home-description-title">About this home</h2>
+    <p class="home-description-text"><%= home.description %></p>
+</article>
+
