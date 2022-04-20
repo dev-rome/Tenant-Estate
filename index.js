@@ -4,7 +4,7 @@ const app = express();
 const path = require("path");
 const expressLayouts = require("express-ejs-layouts");
 const methodOverride = require("method-override");
-const homeController = require("./controller/buyController");
+const buyController = require("./controller/buyController");
 const rentController = require("./controller/rentController");
 
 app.set("view engine", "ejs");
@@ -17,7 +17,7 @@ app.use(methodOverride("_method"));
 app.use(expressLayouts);
 app.use(express.static(__dirname + "/public"));
 
-app.use("/buy", homeController);
+app.use("/buy", buyController);
 app.use("/rent", rentController);
 
 app.listen(app.get("port"), () => {
