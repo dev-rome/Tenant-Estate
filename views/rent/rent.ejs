@@ -1,0 +1,76 @@
+<article class="conatiner-xl mb-5">
+  <h1 class="search-title">Search properties to rent</h1>
+  <form action="/rent" method="GET" class="search-form" id="search">
+    <div class="form-group">
+      <label for="location" class="location">Location</label>
+      <input
+        type="text"
+        class="form-control"
+        id="location"
+        name="location"
+        placeholder="Location"
+      />
+    </div>
+    <div class="form-group">
+      <label for="Price" class="price">Price</label>
+      <input
+        type="number"
+        class="form-control"
+        id="price"
+        name="price"
+        placeholder="Price"
+      />
+    </div>
+    <div class="form-group">
+      <label for="Property-Type" class="property-type">Property Type</label>
+      <input
+        type="text"
+        class="form-control"
+        id="property-type"
+        name="property-type"
+        placeholder="Property Type"
+      />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+  </form>
+
+  <div class="homes__container d-flex">
+    <% for (let apartment of apartments) { %>
+    <li>
+      <a href="/rent/<%= apartment._id %>" class="home__list">
+        <div class="card h-100" style="width: 18rem">
+          <figure>
+            <img
+              src="<%= apartment.image %>"
+              class="card-img-top"
+              alt="images of homes to buy"
+            />
+          </figure>
+          <div class="card-body">
+            <p class="card-price">
+              $<%= apartment.price %><span class="card-price-text">/mo</span>
+            </p>
+            <h5 class="card-name"><%= apartment.name %></h5>
+            <p class="card-location"><%= apartment.location %></p>
+            <hr />
+          </div>
+          <div class="card-info">
+            <p class="card-info__text">
+              <i class="fa-solid fa-bed bed"></i>
+              <%= apartment.bedrooms %> bed
+            </p>
+            <p class="card-info__text">
+              <i class="fa-solid fa-bath bath"></i>
+              <%= apartment.bathrooms %> bathrooms
+            </p>
+            <p class="card-info__text">
+              <i class="fa-solid fa-ruler sqft"></i>
+              <%= apartment.sqft %> sqft
+            </p>
+          </div>
+        </div>
+      </a>
+    </li>
+    <% } %>
+  </div>
+</article>

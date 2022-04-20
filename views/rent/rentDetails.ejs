@@ -1,0 +1,30 @@
+<article class="container">
+    <a href="/rent" class="back-home"><i class="fa-solid fa-angle-left left-angle mb-3"></i>Back to apartments</a>
+    <h1 class="home-title"><%= apartment.name %></h1>
+    <p class="home-location"><%= apartment.location %></p>
+    <figure class="image-container col">
+      <img src="<%= apartment.image %>" class="home-image" alt="<%= apartment.name %>">
+      <aside class="side-image">
+          <img src="<%= apartment.image %>" class="home-image-side" alt="<%= apartment.name %>">
+          <img src="<%= apartment.image %>" class="home-image-side" alt="<%= apartment.name %>">
+      </aside>
+    </figure>
+     <div class="home-info">
+       <p class="home-info-text"> 
+          <i class="fa-solid fa-bed bed"></i>
+          <%= apartment.bedrooms %> bed
+       </p>
+       <p class="home-info-text"> 
+        <i class="fa-solid fa-bath bath"></i>
+          <%= apartment.bathrooms %> bathrooms
+        </p>
+        <p class="home-info-text"> 
+          <i class="fa-solid fa-ruler sqft"></i>
+          <%= apartment.sqft %> sqft
+        </p> 
+     </div>
+  
+    <div class="home-description">
+      <h2 class="home-description-title">About this home</h2>
+      <p class="home-description-text"><%= apartment.description %></p>
+  </article>
