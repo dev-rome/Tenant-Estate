@@ -1,31 +1,48 @@
 <article class="container">
-  <a href="/buy" class="back-home"><i class="fa-solid fa-angle-left left-angle mb-3"></i>Back to home</a>
+  <a href="/buy" class="back-home"
+    ><i class="fa-solid fa-angle-left left-angle mb-3"></i>Back to homes</a
+  >
   <h1 class="home-title"><%= home.name %></h1>
   <p class="home-location"><%= home.location %></p>
   <figure class="image-container col">
-    <img src="<%= home.image %>" class="home-image" alt="<%= home.name %>">
+    <img src="<%= home.image %>" class="home-image" alt="<%= home.name %>" />
     <aside class="side-image">
-        <img src="<%= home.image %>" class="home-image-side" alt="<%= home.name %>">
-        <img src="<%= home.image %>" class="home-image-side" alt="<%= home.name %>">
+      <img
+        src="<%= home.image %>"
+        class="home-image-side"
+        alt="<%= home.name %>"
+      />
+      <img
+        src="<%= home.image %>"
+        class="home-image-side"
+        alt="<%= home.name %>"
+      />
     </aside>
   </figure>
-   <div class="home-info">
-     <p class="home-info-text"> 
-        <i class="fa-solid fa-bed bed"></i>
-        <%= home.bedrooms %> bed
-     </p>
-     <p class="home-info-text"> 
+  <div class="home-info">
+    <p class="home-info-text">
+      <i class="fa-solid fa-bed bed"></i>
+      <%= home.bedrooms %> bed
+    </p>
+    <p class="home-info-text">
       <i class="fa-solid fa-bath bath"></i>
-        <%= home.bathrooms %> bathrooms
-      </p>
-      <p class="home-info-text"> 
-        <i class="fa-solid fa-ruler sqft"></i>
-        <%= home.sqft %> sqft
-      </p> 
-   </div>
+      <%= home.bathrooms %> bathrooms
+    </p>
+    <p class="home-info-text">
+      <i class="fa-solid fa-ruler sqft"></i>
+      <%= home.sqft %> sqft
+    </p>
+  </div>
 
   <div class="home-description">
     <h2 class="home-description-title">About this home</h2>
-    <p class="home-description-text"><%= home.description %></p>
-</article>
+    <p class="home-description-text mb-3"><%= home.description %></p>
+  </div>
 
+  <div class="button-container mb-5">
+    <a href="/buy/<%= home.id %>/edit" class="btn btn-primary">Update</a>
+    <form action="/buy/<%= home.id %>?_method=DELETE" method="POST">
+      <button class="btn btn-danger">Delete</button>
+    </form>
+  </div>
+</article>

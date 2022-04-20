@@ -1,0 +1,96 @@
+<article class="row">
+    <h1 class="text-center">Edit Home</h1>
+    <div class="col-6 offset-3">
+        <form action="/buy/<%= home.id %>?_method=PUT" method="POST" class="row g-3">
+            <div class="col-md-6">
+                <label for="property-type" class="form-label">Property Type</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="property-type"
+                  name="home[properType]"
+                  value="<%= home.properType %>"
+                />
+            </div>
+            <div class="col-md-6">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="home[name]" value="<%= home.name %>" />
+            </div>
+            <div class="col-12">
+                <label for="location" class="form-label">Location</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="location"
+                  name="home[location]"
+                    value="<%= home.location %>"
+                />
+            </div>
+            <div class="col-12">
+              <label for="image" class="form-label">Image Url</label>
+              <input
+                type="text"
+                class="form-control"
+                id="image"
+                name="home[image]"
+                value="<%= home.image %>"
+              />
+            </div>
+            <div class="col-md-6">
+                <label for="price" class="form-label">Price</label>
+                <div class="input-group">
+                    <span class="input-group-text" id="price-label">$</span>
+                    <input type="text" class="form-control" id="price" placeholder="0.00" aria-label="price" 
+                    aria-describedby="price-label" name="home[price]" value="<%= home.price %>">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <label for="bedrooms" class="form-label">Bedrooms</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="bedrooms"
+                  name="home[bedrooms]"
+                    value="<%= home.bedrooms %>"
+                />
+            </div>
+            <div class="col-md-2">
+                <label for="bathrooms" class="form-label">Bathrooms</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="bathrooms"
+                  name="home[bathrooms]"
+                    value="<%= home.bathrooms %>"
+                />
+            </div>
+            <div class="col-md-2">
+                <label for="sqft" class="form-label">Sqft</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="sqft"
+                    name="home[sqft]"
+                    value="<%= home.sqft %>"
+                  />
+            </div>
+            <div class="col-12">
+                <label for="description" class="form-label">Description</label>
+                <textarea
+                    type="text"
+                    class="form-control"
+                    id="description"
+                    name="home[description]"
+                >
+                    <%= home.description %>
+                </textarea>
+            </div>
+            <div class="col-3">
+                <button type="submit" class="btn btn-primary mb-3">Submit</button>
+            </div>
+            <a href="/buy" class="back-home"><i class="fa-solid fa-angle-left left-angle mb-3"></i>Back to homes</a>
+          </form>
+    </div>
+         
+    </div>
+</article>
