@@ -1,0 +1,102 @@
+<article class="row">
+  <h1 class="text-center">New Apartment</h1>
+  <div class="col-6 offset-3">
+    <form action="/rent" method="POST" class="row g-3">
+      <div class="col-md-6">
+        <label for="property-type" class="form-label">Property Type</label>
+        <input
+          type="text"
+          class="form-control"
+          id="property-type"
+          name="apartment[properType]"
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="name" class="form-label">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          name="apartment[name]"
+        />
+      </div>
+      <div class="col-12">
+        <label for="location" class="form-label">Location</label>
+        <input
+          type="text"
+          class="form-control"
+          id="location"
+          name="apartment[location]"
+        />
+      </div>
+      <div class="col-12">
+        <label for="image" class="form-label">Image Url</label>
+        <input
+          type="text"
+          class="form-control"
+          id="image"
+          name="apartment[image]"
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="price" class="form-label">Price</label>
+        <div class="input-group">
+          <span class="input-group-text" id="price-label">$</span>
+          <input
+            type="text"
+            class="form-control"
+            id="price"
+            placeholder="0.00"
+            aria-label="price"
+            aria-describedby="price-label"
+            name="apartment[price]"
+          />
+        </div>
+      </div>
+      <div class="col-md-2">
+        <label for="bedrooms" class="form-label">Bedrooms</label>
+        <input
+          type="number"
+          class="form-control"
+          id="bedrooms"
+          name="apartment[bedrooms]"
+        />
+      </div>
+      <div class="col-md-2">
+        <label for="bathrooms" class="form-label">Bathrooms</label>
+        <input
+          type="number"
+          class="form-control"
+          id="bathrooms"
+          name="apartment[bathrooms]"
+        />
+      </div>
+      <div class="col-md-2">
+        <label for="sqft" class="form-label">Sqft</label>
+        <input
+          type="text"
+          class="form-control"
+          id="sqft"
+          name="apartment[sqft]"
+        />
+      </div>
+      <div class="col-12">
+        <label for="description" class="form-label">Description</label>
+        <textarea
+          type="text"
+          class="form-control"
+          id="description"
+          name="apartment[description]"
+        >
+        </textarea>
+      </div>
+      <div class="col-3">
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+      </div>
+      <a href="/rent" class="back-home"
+        ><i class="fa-solid fa-angle-left left-angle mb-3"></i>Back to
+        apartments</a
+      >
+    </form>
+  </div>
+</article>
