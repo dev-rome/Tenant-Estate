@@ -9,7 +9,7 @@ router.get("/", async (req, res) => {
 });
 
 router.get("/new", (req, res) => {
-  res.render("rent/new");
+  res.render("rent/newApartment");
 });
 
 router.post("/", async (req, res) => {
@@ -27,7 +27,7 @@ router.get("/:id", async (req, res) => {
 router.get("/:id/edit", async (req, res) => {
   const id = req.params.id;
   const apartment = await Apartment.findById(id);
-  res.render("rent/edit", { apartment });
+  res.render("rent/editApartment", { apartment });
 });
 
 router.put("/:id", async (req, res) => {
