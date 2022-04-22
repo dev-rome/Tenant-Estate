@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 const Home = require("../models/home-model");
+const Review = require("../models/review-model");
 
 router.get("/", async (req, res) => {
   const homes = await Home.find({});
@@ -18,9 +19,19 @@ router.post("/", async (req, res) => {
   res.redirect(`buy/${home._id}`);
 });
 
-router.get("/:id", async (req, res) => {
+router.post("/:id/reviews", async (req, res) => {
   const id = req.params.id;
   const home = await Home.findById(id);
+  const review = new Review(req.body.review);
+  home.reviews.push(review);
+  await home.save();
+  await review.save();
+  res.redirect(`/buy/${home._id}`);
+});
+
+router.get("/:id", async (req, res) => {
+  const id = req.params.id;
+  const home = await Home.findById(id).populate("reviews");
   res.render("buy/buyDetails", { home });
 });
 
@@ -40,6 +51,13 @@ router.delete("/:id", async (req, res) => {
   const id = req.params.id;
   await Home.findByIdAndDelete(id);
   res.redirect("/buy");
+});
+
+router.delete("/:id/reviews/:reviewId", async (req, res) => {
+  const { id, reviewId } = req.params;
+  await Home.findByIdAndUpdate(id, {$pull: {reviews: reviewId}});
+  await Review.findByIdAndDelete(reviewId);
+  res.redirect(`/buy/${id}`);
 });
 
 // router.get("/search", async (req, res) => {
