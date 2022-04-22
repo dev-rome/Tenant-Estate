@@ -39,7 +39,7 @@
   </div>
 
   <div class="home-description">
-    <h2 class="home-description-title">About this home</h2>
+    <h2 class="home-description-title">About this apartment</h2>
     <p class="home-description-text"><%= apartment.description %></p>
   </div>
   <div class="button-container mb-5">
@@ -48,4 +48,45 @@
       <button class="btn btn-danger">Delete</button>
     </form>
   </div>
+
+  <form action="/rent/<%= apartment._id %>/reviews" method="POST">
+    <div class="mb-3">
+      <label class="form-label" for="rating">Rating</label>
+      <input
+        type="range"
+        class="form-range w-25"
+        min="1"
+        max="5"
+        name="review[rating]"
+        id="rating"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="body" class="form-label">Review</label>
+      <textarea
+        name="review[body]"
+        id="body"
+        cols="30"
+        rows="3"
+        class="form-control w-50"
+        required
+      ></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mb-3">Submit</button>
+  </form>
+
+  <% for(let review of apartment.reviews) { %>
+  <div class="card mb-3">
+    <div class="mb-3 card-body">
+      <h5 class="card-title">Rating: <%= review.rating %></h5>
+      <p class="card-text">Review: <%= review.body %></p>
+      <form
+        action="/rent/<%= apartment._id %>/reviews/<%= review._id %>?_method=DELETE"
+        method="POST"
+      >
+        <button class="btn btn-danger">Delete</button>
+      </form>
+    </div>
+  </div>
+  <% } %>
 </article>
