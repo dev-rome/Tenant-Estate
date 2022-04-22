@@ -1,4 +1,5 @@
 const mongoose = require("../db/connection");
+const Review = require("../models/review-model");
 const Schema = mongoose.Schema;
 
 const HomeSchema = new Schema({
@@ -37,6 +38,18 @@ const HomeSchema = new Schema({
   properType: {
     type: String,
     required: [true, "Please provide a proper type"],
+  },
+  reviews: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: "Review",
+    },
+  ],
+});
+
+HomeSchema.post("findOneAndDelete", async function (doc) {
+  if (doc) {
+    await Review.deleteMany({ _id: { $in: doc.reviews } });
   }
 });
 

@@ -1,4 +1,5 @@
 const mongoose = require("../db/connection");
+const Review = require("../models/review-model");
 const Schema = mongoose.Schema;
 
 const ApartmentSchema = new Schema({
@@ -42,6 +43,18 @@ const ApartmentSchema = new Schema({
     type: String,
     required: [true, "Please provide a proper type"],
   },
+  reviews: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: "Review",
+    },
+  ],
+});
+
+ApartmentSchema.post("findOneAndDelete", async function (doc) {
+  if (doc) {
+    await Review.deleteMany({ _id: { $in: doc.reviews } });
+  }
 });
 
 const Apartment = mongoose.model("Apartment", ApartmentSchema);
