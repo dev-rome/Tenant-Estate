@@ -14,6 +14,7 @@
           id="property-type"
           name="apartment[properType]"
           value="<%= apartment.properType %>"
+          required
         />
       </div>
       <div class="col-md-6">
@@ -24,6 +25,7 @@
           id="name"
           name="apartment[name]"
           value="<%= apartment.name %>"
+          required
         />
       </div>
       <div class="col-12">
@@ -34,6 +36,7 @@
           id="location"
           name="apartment[location]"
           value="<%= apartment.location %>"
+          required
         />
       </div>
       <div class="col-12">
@@ -44,6 +47,7 @@
           id="image"
           name="apartment[image]"
           value="<%= apartment.image %>"
+          required
         />
       </div>
       <div class="col-md-6">
@@ -59,6 +63,7 @@
             aria-describedby="price-label"
             name="apartment[price]"
             value="<%= apartment.price %>"
+            required
           />
         </div>
       </div>
@@ -70,6 +75,7 @@
           id="bedrooms"
           name="apartment[bedrooms]"
           value="<%= apartment.bedrooms %>"
+          required
         />
       </div>
       <div class="col-md-2">
@@ -80,6 +86,7 @@
           id="bathrooms"
           name="apartment[bathrooms]"
           value="<%= apartment.bathrooms %>"
+          required
         />
       </div>
       <div class="col-md-2">
@@ -90,6 +97,7 @@
           id="sqft"
           name="apartment[sqft]"
           value="<%= apartment.sqft %>"
+          required
         />
       </div>
       <div class="col-12">
@@ -99,10 +107,10 @@
           class="form-control"
           id="description"
           name="apartment[description]"
+          required
         >
-                    <%= apartment.description %>
-                </textarea
-        >
+         <%= apartment.description %>
+        </textarea>
       </div>
       <div class="col-3">
         <button type="submit" class="btn btn-primary mb-3">Submit</button>
