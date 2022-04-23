@@ -39,12 +39,16 @@
     <p class="home-description-text mb-3"><%= home.description %></p>
   </div>
 
+  <% if(currentUser && home.user.equals(currentUser._id)) { %> 
   <div class="button-container mb-5">
     <a href="/buy/<%= home._id %>/edit" class="btn btn-primary">Update</a>
     <form action="/buy/<%= home.id %>?_method=DELETE" method="POST">
       <button class="btn btn-danger">Delete</button>
     </form>
   </div>
+  <% } %>
+
+  <% if(currentUser) { %> 
 
   <form action="/buy/<%= home._id %>/reviews" method="POST">
     <div class="mb-3">
@@ -71,6 +75,7 @@
     </div>
     <button type="submit" class="btn btn-primary mb-3">Submit</button>
   </form>
+  <% } %>
 
   <% for(let review of home.reviews) { %>
   <div class="card mb-3">
