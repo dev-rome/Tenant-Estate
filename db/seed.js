@@ -6,15 +6,15 @@ require("dotenv").config();
 const Apartment = require("../models/apartment-model");
 const apartmentData = require("./apartment.json");
 
-Home.deleteMany({})
-  .then(() => {
-    return Home.insertMany(homeData);
-  })
-  .then(console.log)
-  .catch(console.error)
-  .finally(() => {
-    process.exit();
-  });
+// Home.deleteMany({})
+//   .then(() => {
+//     return Home.insertMany(homeData);
+//   })
+//   .then(console.log)
+//   .catch(console.error)
+//   .finally(() => {
+//     process.exit();
+//   });
 
 Apartment.deleteMany({})
   .then(() => {

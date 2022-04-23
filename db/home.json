@@ -8,7 +8,8 @@
     "properType": "House",
     "bedrooms": 2,
     "bathrooms": 1,
-    "sqft": "2,000"
+    "sqft": "2,000",
+    "user": "626427431926c4cc73cdb763"
   },
   {
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -19,7 +20,8 @@
     "properType": "House",
     "bedrooms": 3,
     "bathrooms": 3,
-    "sqft": "4,000"
+    "sqft": "4,000",
+    "user": "626427431926c4cc73cdb763"
   },
   {
     "image": "https://images.unsplash.com/photo-1593398395073-ae53c3870037?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80",
@@ -30,7 +32,8 @@
     "properType": "House",
     "bedrooms": 2,
     "bathrooms": 1,
-    "sqft": "1,500"
+    "sqft": "1,500",
+    "user": "626427431926c4cc73cdb763"
   },
   {
     "image": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -41,7 +44,8 @@
     "properType": "House",
     "bedrooms": 2,
     "bathrooms": 1,
-    "sqft": "2,500"
+    "sqft": "2,500",
+    "user": "626427431926c4cc73cdb763"
   },
   {
     "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -52,7 +56,8 @@
     "properType": "House",
     "bedrooms": 3,
     "bathrooms": 3,
-    "sqft": "6,000"
+    "sqft": "6,000",
+    "user": "626427431926c4cc73cdb763"
   },
   {
     "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -63,7 +68,8 @@
     "properType": "House",
     "bedrooms": 2,
     "bathrooms": 2,
-    "sqft": "2,000"
+    "sqft": "2,000",
+    "user": "626427431926c4cc73cdb763"
   },
   {
     "image": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -74,7 +80,8 @@
     "properType": "House",
     "bedrooms": 3,
     "bathrooms": 2,
-    "sqft": "5,000"
+    "sqft": "5,000",
+    "user": "626427431926c4cc73cdb763"
   },
   {
     "image": "https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -85,6 +92,7 @@
     "properType": "House",
     "bedrooms": 4,
     "bathrooms": 3,
-    "sqft": "8,500"
+    "sqft": "8,500",
+    "user": "626427431926c4cc73cdb763"
   }
 ]
