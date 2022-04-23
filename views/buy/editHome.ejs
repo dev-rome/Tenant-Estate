@@ -14,6 +14,7 @@
           id="property-type"
           name="home[properType]"
           value="<%= home.properType %>"
+          required
         />
       </div>
       <div class="col-md-6">
@@ -24,6 +25,7 @@
           id="name"
           name="home[name]"
           value="<%= home.name %>"
+          required
         />
       </div>
       <div class="col-12">
@@ -34,6 +36,7 @@
           id="location"
           name="home[location]"
           value="<%= home.location %>"
+          required
         />
       </div>
       <div class="col-12">
@@ -44,6 +47,7 @@
           id="image"
           name="home[image]"
           value="<%= home.image %>"
+          required
         />
       </div>
       <div class="col-md-6">
@@ -59,6 +63,7 @@
             aria-describedby="price-label"
             name="home[price]"
             value="<%= home.price %>"
+            required
           />
         </div>
       </div>
@@ -70,6 +75,7 @@
           id="bedrooms"
           name="home[bedrooms]"
           value="<%= home.bedrooms %>"
+          required
         />
       </div>
       <div class="col-md-2">
@@ -80,6 +86,7 @@
           id="bathrooms"
           name="home[bathrooms]"
           value="<%= home.bathrooms %>"
+          required
         />
       </div>
       <div class="col-md-2">
@@ -90,6 +97,7 @@
           id="sqft"
           name="home[sqft]"
           value="<%= home.sqft %>"
+          required
         />
       </div>
       <div class="col-12">
@@ -100,9 +108,8 @@
           id="description"
           name="home[description]"
         >
-                    <%= home.description %>
-                </textarea
-        >
+          <%= home.description %>
+        </textarea>
       </div>
       <div class="col-3">
         <button type="submit" class="btn btn-primary mb-3">Submit</button>
