@@ -43,6 +43,10 @@ const ApartmentSchema = new Schema({
     type: String,
     required: [true, "Please provide a proper type"],
   },
+  user: {
+    type: Schema.Types.ObjectId,
+    ref: "User",
+  },
   reviews: [
     {
       type: Schema.Types.ObjectId,
