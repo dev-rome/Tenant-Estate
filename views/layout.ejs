@@ -25,7 +25,9 @@
   </head>
   <body>
     <%- include('./partials/nav.ejs') %>
-    <main class="container"><%- body %></main>
+    <main class="container">
+      <%- include('./partials/flash') %> <%- body %>
+    </main>
     <%- include('./partials/footer.ejs') %>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
