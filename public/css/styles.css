@@ -39,8 +39,6 @@ body {
   color: #0d6efd;
 }
 
-/* all homes styling */
-
 .search-title {
   font-size: 2rem;
   font-weight: bold;
@@ -139,8 +137,6 @@ input[type="number"] {
 .card-price {
   color: #0d6efd;
 }
-
-/* single home styling */
 
 .back-home {
   font-size: 0.9rem;
