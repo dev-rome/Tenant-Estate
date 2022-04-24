@@ -42,34 +42,19 @@
   <% if(currentUser && home.user.equals(currentUser._id)) { %>
   <div class="button-container mb-5">
     <a href="/buy/<%= home._id %>/edit" class="btn btn-primary">Update</a>
-    <form action="/buy/<%= home.id %>?_method=DELETE" method="POST">
+    <form action="/buy/<%= home._id %>?_method=DELETE" method="POST">
       <button class="btn btn-danger">Delete</button>
     </form>
   </div>
-  <% } %> <% if(currentUser) { %>
+  <% } %> 
+  
+  <% if(currentUser) { %>
   <form action="/buy/<%= home._id %>/reviews" method="POST">
-    <h4 class="review-title">Leave a Review</h4>
-    <fieldset class="starability-basic">
-      <input
-        type="radio"
-        id="no-rate"
-        class="input-no-rate"
-        name="review[rating] "
-        value="0"
-        checked
-        aria-label="No rating."
-      />
-      <input type="radio" id="first-rate1" name="rating" value="1" />
-      <label for="first-rate1" title="Terrible">1 star</label>
-      <input type="radio" id="first-rate2" name="review[rating]" value="2" />
-      <label for="first-rate2" title="Not good">2 stars</label>
-      <input type="radio" id="first-rate3" name="review[rating]" value="3" />
-      <label for="first-rate3" title="Average">3 stars</label>
-      <input type="radio" id="first-rate4" name="review[rating]" value="4" />
-      <label for="first-rate4" title="Very good">4 stars</label>
-      <input type="radio" id="first-rate5" name="review[rating]" value="5" />
-      <label for="first-rate5" title="Amazing">5 stars</label>
-    </fieldset>
+    <div class="mb-3">
+      <label for="rating" class="form-label">Rating</label>
+      <input type="range" class="form-range" min="1" max="5" name="review[rating]" id="rating">
+    </div>
+    
 
     <div class="mb-3">
       <label for="body" class="form-label">Review</label>
@@ -84,7 +69,9 @@
     </div>
     <button type="submit" class="btn btn-primary mb-3">Submit</button>
   </form>
-  <% } %> <% for(let review of home.reviews) { %>
+  <% } %> 
+  
+  <% for(let review of home.reviews) { %>
   <div class="card mb-3">
     <div class="mb-3 card-body">
       <h5 class="card-title">By: <%= review.user.username %></h5>
