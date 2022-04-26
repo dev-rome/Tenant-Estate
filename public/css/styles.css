@@ -36,7 +36,7 @@ body {
 }
 
 .user-icon {
-  color: #0d6efd;
+  color: #339af0;
 }
 
 .search-title {
@@ -46,24 +46,30 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.new-home, .search-home{
+  color: #f8f9fa;
+  background-color: #339af0;
+}
+
+.new-home:hover, .search-home:hover {
+  color: #f8f9fa;
+  background-color: #1c7ed6;
+}
+
 .search-form {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  background-color: #fff;
-  padding: 1rem;
+  padding: 1rem 0rem;
   margin-bottom: 2rem;
 }
 
 .form-group {
-  border-right: 1px solid #dcdddf;
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
 }
 
-.form-control {
-  width: 75%;
-  padding: 0;
-}
 
 input {
   text-align: left;
@@ -76,6 +82,11 @@ input[type="number"] {
   outline: none;
 }
 
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+  color: #339af0;
+}
+
 .location,
 .price,
 .property-type {
@@ -84,7 +95,7 @@ input[type="number"] {
 }
 
 .home-user {
-  color: #0d6efd;
+  color: #339af0;
 }
 
 .nav-text {
@@ -93,8 +104,8 @@ input[type="number"] {
 }
 
 .nav-text:hover {
-  border-top: 1px solid #0d6efd;
-  color: #0d6efd !important;
+  border-top: 1px solid #339af0;
+  color: #339af0 !important;
 }
 
 .homes__container {
@@ -135,7 +146,7 @@ input[type="number"] {
 .bath,
 .sqft,
 .card-price {
-  color: #0d6efd;
+  color: #339af0;
 }
 
 .back-home {
