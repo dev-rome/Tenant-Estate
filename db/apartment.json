@@ -4,6 +4,10 @@
     "price": 1500,
     "name": "Four Flamingos",
     "location": "8976 East, New York, NY",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.935242, 40.73061]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "Apartment",
     "bedrooms": 1,
@@ -16,6 +20,10 @@
     "price": 1700,
     "name": "Town Place Apartments",
     "location": "1456 North Ave, New Jersey, NJ",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.871826, 39.833851]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "Apartment",
     "bedrooms": 1,
@@ -28,6 +36,10 @@
     "price": 3000,
     "name": "Town Place Apartments",
     "location": "7896 NE. 8th Dr, New York, NY",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.935242, 40.73061]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "Apartment",
     "bedrooms": 3,
@@ -40,6 +52,10 @@
     "price": 5000,
     "name": "The Views",
     "location": "560 Arlington Heights, Pennsylvania, PA",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-77.194527, 41.203323]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "Apartment",
     "bedrooms": 4,
@@ -53,6 +69,10 @@
     "price": 2000,
     "name": "New Age Living",
     "location": "97 Beechwood St. Alabama, AL",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-86.902298, 32.31823]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "Apartment",
     "bedrooms": 2,
@@ -65,6 +85,10 @@
     "price": 3000,
     "name": "Creekside Apartments",
     "location": "643 Laurel Lane, New York, NY",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.935242, 40.73061]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "Apartment",
     "bedrooms": 1,
@@ -77,6 +101,10 @@
     "price": 7000,
     "name": "MasterGlory",
     "location": "7598 Squaw Creek Street, Georgia, GA",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-83.441162, 33.247875]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "Apartment",
     "bedrooms": 4,
@@ -89,6 +117,10 @@
     "price": 2000,
     "name": "La Grande Maison",
     "location": "36 Division Lane, Florida, FL",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-81.760254, 27.994402]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "Apartment",
     "bedrooms": 3,

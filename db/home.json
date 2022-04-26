@@ -4,6 +4,10 @@
     "price": 300000,
     "name": "Brown Wood",
     "location": "1234 Main Street, New York, NY",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.935242, 40.73061]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "House",
     "bedrooms": 2,
@@ -16,6 +20,10 @@
     "price": 450000,
     "name": "Cotton Mond",
     "location": "4569 Cottage Road, New Jersey, NJ",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.871826, 39.833851]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "House",
     "bedrooms": 3,
@@ -28,6 +36,10 @@
     "price": 100000,
     "name": "Apple Hill",
     "location": "598 NE. 4th Dr, New York, NY",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.935242, 40.73061]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "House",
     "bedrooms": 2,
@@ -40,6 +52,10 @@
     "price": 200000,
     "name": "Hamils Worth",
     "location": "370 Jockey Hollow Drive, Pennsylvania, PA",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-77.194527, 41.203323]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "House",
     "bedrooms": 2,
@@ -52,6 +68,10 @@
     "price": 600000,
     "name": "Richfield",
     "location": "9889 Ridgeview Rd, New York, NY",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.935242, 40.73061]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "House",
     "bedrooms": 3,
@@ -64,6 +84,10 @@
     "price": 100000,
     "name": "Roosevelt Manor",
     "location": "943 E. Main St, Virginia, VA",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-78.024902, 37.926868]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "House",
     "bedrooms": 2,
@@ -76,6 +100,10 @@
     "price": 350000,
     "name": "Town Rich",
     "location": "4589 W. North Ave, Virginia, VA",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-78.024902, 37.926868]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "House",
     "bedrooms": 3,
@@ -88,6 +116,10 @@
     "price": 1000000,
     "name": "Fuller More",
     "location": "12 S. More Ave, Florida, FL",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-81.760254, 27.994402]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Magna fringilla urna porttitor rhoncus dolor purus non enim. Blandit cursus risus at ultrices mi. Quisque non tellus orci ac. Adipiscing elit duis tristique sollicitudin nibh. Orci porta non pulvinar neque laoreet. Elit eget gravida cum sociis natoque penatibus et magnis dis. Donec enim diam vulputate ut pharetra sit amet.",
     "properType": "House",
     "bedrooms": 4,
