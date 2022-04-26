@@ -8,32 +8,34 @@
     <img src="<%= home.image %>" class="home-image" alt="<%= home.name %>" />
     <aside class="side-image">
       <img
-        src="<%= home.image %>"
+        src="<%= home.interiorOne %>"
         class="home-image-side"
         alt="<%= home.name %>"
       />
       <img
-        src="<%= home.image %>"
+        src="<%= home.interiorTwo %>"
         class="home-image-side"
         alt="<%= home.name %>"
       />
-      <div id='map' style='width: 400px; height: 300px;'></div>
     </aside>
   </figure>
-  <div class="home-info">
-    <p class="home-info-text">
-      <i class="fa-solid fa-bed bed"></i>
-      <%= home.bedrooms %> bed
-    </p>
-    <p class="home-info-text">
-      <i class="fa-solid fa-bath bath"></i>
-      <%= home.bathrooms %> bathrooms
-    </p>
-    <p class="home-info-text">
-      <i class="fa-solid fa-ruler sqft"></i>
-      <%= home.sqft %> sqft
-    </p>
-  </div>
+
+    <div class="home-info">
+      <p class="home-info-text">
+        <i class="fa-solid fa-bed bed"></i>
+        <%= home.bedrooms %> bed
+      </p>
+      <p class="home-info-text">
+        <i class="fa-solid fa-bath bath"></i>
+        <%= home.bathrooms %> bathrooms
+      </p>
+      <p class="home-info-text">
+        <i class="fa-solid fa-ruler sqft"></i>
+        <%= home.sqft %> sqft
+      </p>
+    </div>
+
+    <div id='map' class="mb-4" style='width: 65%; height: 300px;'></div>
 
   <div class="home-description">
     <h2 class="home-description-title">About this home</h2>
