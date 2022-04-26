@@ -23,8 +23,8 @@ module.exports.isHomeAuthor = async (req, res, next) => {
 
 module.exports.isApartmentAuthor = async (req, res, next) => {
   const id = req.params.id;
-  const apartmentAuthor = await Apartment.findById(id);
-  if (!apartmentAuthor.author.equals(req.user._id)) {
+  const apartment = await Apartment.findById(id);
+  if (!apartment.user.equals(req.user._id)) {
     req.flash("error", "You are not authorized to do that!");
     return res.redirect(`/rent/${id}`);
   }
