@@ -12,16 +12,15 @@
     />
     <aside class="side-image">
       <img
-        src="<%= apartment.image %>"
+        src="<%= apartment.interiorOne %>"
         class="home-image-side"
         alt="<%= apartment.name %>"
       />
       <img
-        src="<%= apartment.image %>"
+        src="<%= apartment.interiorTwo %>"
         class="home-image-side"
         alt="<%= apartment.name %>"
       />
-      <div id='map' style='width: 400px; height: 300px;'></div>
     </aside>
   </figure>
   <div class="home-info">
@@ -38,6 +37,8 @@
       <%= apartment.sqft %> sqft
     </p>
   </div>
+
+  <div id='map' class="mb-4" style='width: 65%; height: 300px;'></div>
 
   <div class="home-description">
     <h2 class="home-description-title">About this apartment</h2>
