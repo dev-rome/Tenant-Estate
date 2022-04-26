@@ -21,11 +21,14 @@
           <a class="nav-link nav-text" href="/rent">Rent</a>
         </div>
         <div class="navbar-nav navbar-end">
-          <% if(!currentUser) { %> 
+          <% if(!currentUser) { %>
           <a href="/login" class="nav-link nav-text login">Login</a>
           <a href="/register" class="nav-link nav-text register">Register</a>
           <% } else { %>
-          <p class="user text-capitalize"><i class="fa-solid fa-user user-icon"></i> <%= currentUser.username %></p>
+          <p class="user text-capitalize">
+            <i class="fa-solid fa-user user-icon"></i> <%= currentUser.username
+            %>
+          </p>
           <a href="/logout" class="nav-link nav-text logout">Logout</a>
           <% } %>
         </div>

@@ -20,22 +20,22 @@
     </aside>
   </figure>
 
-    <div class="home-info">
-      <p class="home-info-text">
-        <i class="fa-solid fa-bed bed"></i>
-        <%= home.bedrooms %> bed
-      </p>
-      <p class="home-info-text">
-        <i class="fa-solid fa-bath bath"></i>
-        <%= home.bathrooms %> bathrooms
-      </p>
-      <p class="home-info-text">
-        <i class="fa-solid fa-ruler sqft"></i>
-        <%= home.sqft %> sqft
-      </p>
-    </div>
+  <div class="home-info">
+    <p class="home-info-text">
+      <i class="fa-solid fa-bed bed"></i>
+      <%= home.bedrooms %> bed
+    </p>
+    <p class="home-info-text">
+      <i class="fa-solid fa-bath bath"></i>
+      <%= home.bathrooms %> bathrooms
+    </p>
+    <p class="home-info-text">
+      <i class="fa-solid fa-ruler sqft"></i>
+      <%= home.sqft %> sqft
+    </p>
+  </div>
 
-    <div id='map' class="mb-4" style='width: 65%; height: 300px;'></div>
+  <div id="map" class="mb-4" style="width: 65%; height: 300px"></div>
 
   <div class="home-description">
     <h2 class="home-description-title">About this home</h2>
@@ -49,15 +49,19 @@
       <button class="btn btn-danger">Delete</button>
     </form>
   </div>
-  <% } %> 
-  
-  <% if(currentUser) { %>
+  <% } %> <% if(currentUser) { %>
   <form action="/buy/<%= home._id %>/reviews" method="POST">
     <div class="mb-3">
       <label for="rating" class="form-label">Rating</label>
-      <input type="range" class="form-range" min="1" max="5" name="review[rating]" id="rating">
+      <input
+        type="range"
+        class="form-range"
+        min="1"
+        max="5"
+        name="review[rating]"
+        id="rating"
+      />
     </div>
-    
 
     <div class="mb-3">
       <label for="body" class="form-label">Review</label>
@@ -72,9 +76,7 @@
     </div>
     <button type="submit" class="btn btn-primary mb-3">Submit</button>
   </form>
-  <% } %> 
-  
-  <% for(let review of home.reviews) { %>
+  <% } %> <% for(let review of home.reviews) { %>
   <div class="card mb-3">
     <div class="mb-3 card-body">
       <h5 class="card-title">By: <%= review.user.username %></h5>
@@ -101,4 +103,3 @@
 </script>
 
 <script src="/js/showMap.js"></script>
-

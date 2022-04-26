@@ -9,11 +9,11 @@ const HomeSchema = new Schema({
   },
   interiorOne: {
     type: String,
-    required: [true, "Please provide interior one"]
+    required: [true, "Please provide interior one"],
   },
   interiorTwo: {
     type: String,
-    required: [true, "Please provide interior two"]
+    required: [true, "Please provide interior two"],
   },
   price: {
     type: Number,
@@ -31,12 +31,12 @@ const HomeSchema = new Schema({
     type: {
       type: String,
       enum: ["Point"],
-      required: true
+      required: true,
     },
     coordinates: {
       type: [Number],
-      required: true
-    }
+      required: true,
+    },
   },
   location: {
     type: String,
