@@ -19,6 +19,17 @@ const ApartmentSchema = new Schema({
     type: String,
     required: [true, "Apartment description is required"],
   },
+  geometry: {
+    type: {
+      type: String,
+      enum: ["Point"],
+      required: true
+    },
+    coordinates: {
+      type: [Number],
+      required: true
+    }
+  },
   location: {
     type: String,
     required: [true, "Apartment description is required"],

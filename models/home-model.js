@@ -19,6 +19,17 @@ const HomeSchema = new Schema({
     type: String,
     required: [true, "Home description is required"],
   },
+  geometry: {
+    type: {
+      type: String,
+      enum: ["Point"],
+      required: true
+    },
+    coordinates: {
+      type: [Number],
+      required: true
+    }
+  },
   location: {
     type: String,
     required: [true, "Home location is required"],
