@@ -7,6 +7,14 @@ const ApartmentSchema = new Schema({
     type: String,
     required: [true, "Please provide an image"],
   },
+  interiorOne: {
+    type: String,
+    required: [true, "Please provide interior one"]
+  },
+  interiorTwo: {
+    type: String,
+    required: [true, "Please provide interior two"]
+  },
   price: {
     type: Number,
     required: [true, "Please provide a price"],
