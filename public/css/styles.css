@@ -259,6 +259,11 @@ input[type="number"]::placeholder {
   padding: 3rem 2rem;
 }
 
+.form-edit, .form-new {
+  background-color: #fff;
+  padding: 3rem 2rem;
+}
+
 .form-login {
   width: 500px;
   height: 350px;
@@ -270,7 +275,9 @@ input[type="number"]::placeholder {
 }
 
 .login-title,
-.register-title {
+.register-title,
+.edit-title,
+.new-title {
   font-family: "Inter", sans-serif;
 }
 
