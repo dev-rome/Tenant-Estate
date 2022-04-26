@@ -1,5 +1,8 @@
 const express = require("express");
 const router = express.Router();
+const mbxGeocoding = require("@mapbox/mapbox-sdk/services/geocoding");
+const mapBoxToken = process.env.MAPBOX_TOKEN;
+const geocoder = mbxGeocoding({ accessToken: mapBoxToken });
 
 const Apartment = require("../models/apartment-model");
 const { isLoggedIn, isApartmentAuthor } = require("../middleware");
@@ -14,7 +17,12 @@ router.get("/new", isLoggedIn, (req, res) => {
 });
 
 router.post("/", isLoggedIn, async (req, res) => {
+  const geoData = await geocoder.forwardGeocode({
+    query: req.body.apartment.location,
+    limit: 1
+  }).send()
   const apartment = new Apartment(req.body.apartment);
+  apartment.geometry = geoData.body.features[0].geometry;
   apartment.user = req.user._id;
   await apartment.save();
   req.flash("success", "Apartment added successfully!");

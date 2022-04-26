@@ -1,5 +1,8 @@
 const express = require("express");
 const router = express.Router();
+const mbxGeocoding = require("@mapbox/mapbox-sdk/services/geocoding");
+const mapBoxToken = process.env.MAPBOX_TOKEN;
+const geocoder = mbxGeocoding({ accessToken: mapBoxToken });
 
 const Home = require("../models/home-model");
 const { isLoggedIn, isHomeAuthor } = require("../middleware");
@@ -9,12 +12,25 @@ router.get("/", async (req, res) => {
   res.render("buy/buy", { homes });
 });
 
+router.get("/search", async (req, res) => {
+  const { location } = req.query;
+  const homes = await Home.find({
+    location: { $regex: location, $options: "i" },
+  });
+  res.render("buy/buy", { homes, location });
+});
+
 router.get("/new", isLoggedIn, (req, res) => {
   res.render("buy/newHome");
 });
 
 router.post("/", isLoggedIn, async (req, res) => {
+  const geoData = await geocoder.forwardGeocode({
+    query: req.body.home.location,
+    limit: 1
+  }).send()
   const home = new Home(req.body.home);
+  home.geometry = geoData.body.features[0].geometry;
   home.user = req.user._id;
   await home.save();
   req.flash("success", "Home added successfully!");
@@ -56,15 +72,5 @@ router.delete("/:id", isLoggedIn, isHomeAuthor, async (req, res) => {
   req.flash("success", "Home deleted successfully!");
   res.redirect("/buy");
 });
-
-//   router.get("/search", async (req, res) => {
-//   const { location, price, properType } = req.query;
-//   const homes = await Home.find({
-//     location: location,
-//     price: price,
-//     properType: properType,
-//   });
-//   res.render("buy/buy", { homes });
-// })
 
 module.exports = router;
