@@ -1,6 +1,8 @@
 [
   {
     "image": "https://images.unsplash.com/photo-1624204386084-dd8c05e32226?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "interiorOne": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "interiorTwo": "https://images.unsplash.com/photo-1612320648993-61c1cd604b71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80",
     "price": 1500,
     "name": "Four Flamingos",
     "location": "8976 East, New York, NY",
@@ -17,8 +19,10 @@
   },
   {
     "image": "https://images.unsplash.com/photo-1594484208280-efa00f96fc21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "interiorOne": "https://images.unsplash.com/photo-1630699376331-7d70d7a3e417?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "interiorTwo": "https://images.unsplash.com/photo-1630699144418-6ca9059f9a44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     "price": 1700,
-    "name": "Town Place Apartments",
+    "name": "Crystal Home",
     "location": "1456 North Ave, New Jersey, NJ",
     "geometry": {
       "type": "Point",
@@ -33,6 +37,8 @@
   },
   {
     "image": "https://images.unsplash.com/photo-1597047084993-bf337e09ede0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "interiorOne": "https://images.unsplash.com/photo-1630699144867-37acec97df5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "interiorTwo": "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80",
     "price": 3000,
     "name": "Town Place Apartments",
     "location": "7896 NE. 8th Dr, New York, NY",
@@ -49,6 +55,8 @@
   },
   {
     "image": "https://images.unsplash.com/photo-1549499090-c9203d2b20ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "interiorOne": "https://images.unsplash.com/photo-1630699375895-fe5996d163ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "interiorTwo": "https://images.unsplash.com/photo-1630699144375-6b6b7cb66696?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     "price": 5000,
     "name": "The Views",
     "location": "560 Arlington Heights, Pennsylvania, PA",
@@ -63,9 +71,10 @@
     "sqft": "7,000",
     "user": "626427431926c4cc73cdb763"
   },
-
   {
     "image": "https://images.unsplash.com/photo-1610526662524-bd113e746fdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+    "interiorOne": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80",
+    "interiorTwo": "https://images.unsplash.com/photo-1630699376106-d550afb865bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     "price": 2000,
     "name": "New Age Living",
     "location": "97 Beechwood St. Alabama, AL",
@@ -82,6 +91,8 @@
   },
   {
     "image": "https://images.unsplash.com/photo-1561321698-40ae82a47b9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "interiorOne": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "interiorTwo": "https://images.unsplash.com/photo-1630699376289-b62375a35505?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     "price": 3000,
     "name": "Creekside Apartments",
     "location": "643 Laurel Lane, New York, NY",
@@ -98,6 +109,8 @@
   },
   {
     "image": "https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "interiorOne": "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80",
+    "interiorTwo": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
     "price": 7000,
     "name": "MasterGlory",
     "location": "7598 Squaw Creek Street, Georgia, GA",
@@ -114,6 +127,8 @@
   },
   {
     "image": "https://images.unsplash.com/photo-1625235521333-70cd3b008bb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "interiorOne": "https://images.unsplash.com/photo-1630699294897-723e02620662?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "interiorTwo": "https://images.unsplash.com/photo-1604709177225-055f99402ea3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     "price": 2000,
     "name": "La Grande Maison",
     "location": "36 Division Lane, Florida, FL",
