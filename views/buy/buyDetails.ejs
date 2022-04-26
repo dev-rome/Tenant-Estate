@@ -17,6 +17,7 @@
         class="home-image-side"
         alt="<%= home.name %>"
       />
+      <div id='map' style='width: 400px; height: 300px;'></div>
     </aside>
   </figure>
   <div class="home-info">
@@ -91,3 +92,11 @@
   </div>
   <% } %>
 </article>
+
+<script>
+  const mapToken = "<%-process.env.MAPBOX_TOKEN%>";
+  const home = <%-JSON.stringify(home)%>;
+</script>
+
+<script src="/js/showMap.js"></script>
+
