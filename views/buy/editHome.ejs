@@ -1,22 +1,11 @@
-<article class="row">
-  <h1 class="text-center">Edit Home</h1>
+<article class="row mt-5">
   <div class="col-6 offset-3">
     <form
       action="/buy/<%= home.id %>?_method=PUT"
       method="POST"
-      class="row g-3"
+      class="row g-3 form-edit"
     >
-      <div class="col-md-6">
-        <label for="property-type" class="form-label">Property Type</label>
-        <input
-          type="text"
-          class="form-control"
-          id="property-type"
-          name="home[properType]"
-          value="<%= home.properType %>"
-          required
-        />
-      </div>
+      <h5 class="edit-title">Edit Home</h5>
       <div class="col-md-6">
         <label for="name" class="form-label">Name</label>
         <input
@@ -107,15 +96,13 @@
           class="form-control"
           id="description"
           name="home[description]"
-        >
-          <%= home.description %>
-        </textarea>
+        ><%= home.description %></textarea>
       </div>
       <div class="col-3">
         <button type="submit" class="btn btn-primary mb-3">Submit</button>
       </div>
-      <a href="/buy" class="back-home"
-        ><i class="fa-solid fa-angle-left left-angle mb-3"></i>Back to homes</a
+      <a href="/buy/<%= home.id %> " class="back-home"
+        ><i class="fa-solid fa-angle-left left-angle mb-3"></i>Back to home</a
       >
     </form>
   </div>

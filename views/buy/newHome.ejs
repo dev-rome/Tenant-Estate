@@ -1,17 +1,7 @@
-<article class="row">
-  <h1 class="text-center">New Home</h1>
+<article class="row mt-5">
   <div class="col-6 offset-3">
-    <form action="/buy" method="POST" class="row g-3">
-      <div class="col-md-6">
-        <label for="property-type" class="form-label">Property Type</label>
-        <input
-          type="text"
-          class="form-control"
-          id="property-type"
-          name="home[properType]"
-          required
-        />
-      </div>
+    <form action="/buy" method="POST" class="row g-3 form-new">
+      <h5 class="new-title">New Home</h5>
       <div class="col-md-6">
         <label for="name" class="form-label">Name</label>
         <input
@@ -90,8 +80,7 @@
           id="description"
           name="home[description]"
           required
-        >
-        </textarea>
+        ></textarea>
       </div>
       <div class="col-3">
         <button type="submit" class="btn btn-primary mb-3">Submit</button>

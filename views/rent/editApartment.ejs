@@ -1,22 +1,11 @@
-<article class="row">
-  <h1 class="text-center">Edit Apartment</h1>
+<article class="row mt-5">
   <div class="col-6 offset-3">
     <form
       action="/rent/<%= apartment.id %>?_method=PUT"
       method="POST"
-      class="row g-3"
+      class="row g-3 form-edit"
     >
-      <div class="col-md-6">
-        <label for="property-type" class="form-label">Property Type</label>
-        <input
-          type="text"
-          class="form-control"
-          id="property-type"
-          name="apartment[properType]"
-          value="<%= apartment.properType %>"
-          required
-        />
-      </div>
+      <h5 class="edit-title">Edit Apartment</h5>
       <div class="col-md-6">
         <label for="name" class="form-label">Name</label>
         <input
@@ -108,16 +97,14 @@
           id="description"
           name="apartment[description]"
           required
-        >
-         <%= apartment.description %>
-        </textarea>
+        ><%= apartment.description %></textarea>
       </div>
       <div class="col-3">
         <button type="submit" class="btn btn-primary mb-3">Submit</button>
       </div>
-      <a href="/rent" class="back-home"
+      <a href="/rent/<%= apartment.id %> " class="back-home"
         ><i class="fa-solid fa-angle-left left-angle mb-3"></i>Back to
-        apartments</a
+        apartment</a
       >
     </form>
   </div>
