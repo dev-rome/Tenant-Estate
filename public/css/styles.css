@@ -30,7 +30,7 @@ body {
 
 .user {
   font-size: 1.1rem;
-  color: rgba(0,0,0,.55);
+  color: rgba(0, 0, 0, 0.55);
   padding: 0.5rem;
   margin: 0;
 }
@@ -46,12 +46,14 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.new-home, .search-home{
+.new-home,
+.search-home {
   color: #f8f9fa;
   background-color: #339af0;
 }
 
-.new-home:hover, .search-home:hover {
+.new-home:hover,
+.search-home:hover {
   color: #f8f9fa;
   background-color: #1c7ed6;
 }
@@ -69,7 +71,6 @@ body {
   align-items: center;
   margin-right: 2rem;
 }
-
 
 input {
   text-align: left;
@@ -242,4 +243,38 @@ input[type="number"]::placeholder {
 .button-container {
   display: flex;
   gap: 0.5rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-login,
+.form-register {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 3rem 2rem;
+}
+
+.form-login {
+  width: 500px;
+  height: 350px;
+}
+
+.form-register {
+  width: 500px;
+  height: 450px;
+}
+
+.login-title,
+.register-title {
+  font-family: "Inter", sans-serif;
+}
+
+.login-control,
+.register-control {
+  width: 100%;
 }
