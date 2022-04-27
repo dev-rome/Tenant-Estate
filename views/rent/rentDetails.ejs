@@ -54,9 +54,10 @@
   </div>
   <% } %> <% if(currentUser) { %>
   <form action="/rent/<%= apartment._id %>/reviews" method="POST">
-    <div class="mb-3">
+    <div class="col-6 mb-3">
       <label for="rating" class="form-label">Rating</label>
       <input
+        list="tickmarks"
         type="range"
         class="form-range"
         min="1"
@@ -80,7 +81,7 @@
     <button type="submit" class="btn btn-primary mb-3">Submit</button>
   </form>
   <% } %> <% for(let review of apartment.reviews) { %>
-  <div class="card mb-3">
+  <div class="card mb-3 w-50">
     <div class="mb-3 card-body">
       <h5 class="card-title">By: <%= review.user.username %></h5>
       <p class="starability-result" data-rating="<%= review.rating %>">
