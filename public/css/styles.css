@@ -83,11 +83,6 @@ input[type="number"] {
   outline: none;
 }
 
-input[type="text"]::placeholder,
-input[type="number"]::placeholder {
-  color: #339af0;
-}
-
 .location,
 .price,
 .property-type {
@@ -231,6 +226,18 @@ input[type="number"]::placeholder {
   width: 65%;
   margin-bottom: 3rem;
 }
+
+.update, .submit, .user-login, .user-register {
+  color: #fff;
+  background-color: #339af0;
+}
+
+.update:hover, .submit:hover, .user-login:hover, .user-register:hover {
+  color: #fff;
+  background-color: #1c7ed6;
+}
+
+
 
 .card-price-text {
   font-size: 1rem;

@@ -47,7 +47,7 @@
 
   <% if(currentUser && apartment.user.equals(currentUser._id)) { %>
   <div class="button-container mb-5">
-    <a href="/rent/<%= apartment._id %>/edit" class="btn btn-primary">Update</a>
+    <a href="/rent/<%= apartment._id %>/edit" class="btn update">Update</a>
     <form action="/rent/<%= apartment._id %>?_method=DELETE" method="POST">
       <button class="btn btn-danger">Delete</button>
     </form>
@@ -78,7 +78,7 @@
         required
       ></textarea>
     </div>
-    <button type="submit" class="btn btn-primary mb-3">Submit</button>
+    <button type="submit" class="btn submit mb-3">Submit</button>
   </form>
   <% } %> <% for(let review of apartment.reviews) { %>
   <div class="card mb-3 w-50">
