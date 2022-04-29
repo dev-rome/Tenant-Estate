@@ -19,6 +19,12 @@ There is also a map for the user to see the location of the home/apartment they 
 ![screencapture-localhost-4000-buy-6268711c362db3335f4fc359-2022-04-29-18_35_33](https://user-images.githubusercontent.com/84602714/166077829-1b415502-7b63-4157-9d3a-02ede07dbbe2.png)
 ![screencapture-localhost-4000-buy-6268711c362db3335f4fc359-2022-04-29-18_36_10](https://user-images.githubusercontent.com/84602714/166077850-852a66dc-7b18-42ea-a93d-7e1cc0312866.png)
 
+## Tools
+- EJS
+- JavaScript
+- CSS
+- BootStrap
+
 ## User Stories
 ### MVP Goals
 Users are able to see all homes/apartments
