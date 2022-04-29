@@ -55,6 +55,4 @@ app.use("/buy/:id/reviews", homeReviewController);
 app.use("/rent/:id/reviews", rentReviewController);
 app.use("/", userController);
 
-app.listen(app.get("port"), () => {
-  console.log(`Server running on Port: ${app.get("port")}`);
-});
+app.listen(process.env.PORT || 4000)
