@@ -16,9 +16,9 @@ router.get("/search", async (req, res) => {
   const { location } = req.query;
   const homes = await Home.find({
     location: { $regex: location, $options: "i" },
-  });
-  res.render("buy/buy", { homes, location });
-});
+  })
+  res.render("buy/buy", { homes });
+})
 
 router.get("/new", isLoggedIn, (req, res) => {
   res.render("buy/newHome");
