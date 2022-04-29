@@ -27,17 +27,17 @@ There is also a map for the user to see the location of the home/apartment they 
 
 ## User Stories
 ### MVP Goals
-Users are able to see all homes/apartments
-Users can see a single home/apartment when clicked
-Users can post homes/apartments
-Users can edit only the home/apartment that they have posted
-Users can only remove a home/apartment that they have posted.
-Users can leave a review and only delete the review they have posted
-Users can login and register
-Users can search by location and price
+- Users are able to see all homes/apartments
+- Users can see a single home/apartment when clicked
+- Users can post homes/apartments
+- Users can edit only the home/apartment that they have posted
+- Users can only remove a home/apartment that they have posted.
+- Users can leave a review and only delete the review they have posted
+- Users can login and register
+- Users can search by location and price
 
 ## Features to improve on
-Add a home page or landing page
-Change the review system to a start rating review
-Fix for all screen sizes
-Maybe add some features such as checkout.
+- Add a home page or landing page
+- Change the review system to a start rating review
+- Fix for all screen sizes
+- Maybe add some features such as checkout.
