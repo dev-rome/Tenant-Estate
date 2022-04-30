@@ -42,10 +42,11 @@ There is also a map for the user to see the location of the home/apartment they 
 - Users can only remove a home/apartment that they have posted.
 - Users can leave a review and only delete the review they have posted
 - Users can login and register
-- Users can search by location and price
+- Users can search by location
 
 ## Features to improve on
 - Add a home page or landing page
 - Change the review system to a start rating review
 - Fix for all screen sizes
-- Maybe add some features such as checkout.
+- Maybe add some features such as checkout
+- fix search so user can such by price and not just location
