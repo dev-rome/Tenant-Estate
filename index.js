@@ -48,6 +48,8 @@ app.use((req, res, next) => {
   res.locals.error = req.flash("error");
   next();
 });
+app.get('/favicon.ico', (req, res) => {res.send("dummy")})
+
 
 app.use("/buy", buyController);
 app.use("/rent", rentController);
