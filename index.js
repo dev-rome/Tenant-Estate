@@ -55,4 +55,4 @@ app.use("/buy/:id/reviews", homeReviewController);
 app.use("/rent/:id/reviews", rentReviewController);
 app.use("/", userController);
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
