@@ -27,7 +27,7 @@ const sessionConfig = {
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
-app.set("port", process.env.PORT || 4000);
+app.set("port", process.env.PORT || 3000);
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -48,8 +48,6 @@ app.use((req, res, next) => {
   res.locals.error = req.flash("error");
   next();
 });
-app.get('/favicon.ico', (req, res) => {res.send("dummy")})
-
 
 app.use("/buy", buyController);
 app.use("/rent", rentController);
@@ -57,4 +55,4 @@ app.use("/buy/:id/reviews", homeReviewController);
 app.use("/rent/:id/reviews", rentReviewController);
 app.use("/", userController);
 
-app.listen(process.env.PORT || 4000)
+app.listen(3000)
