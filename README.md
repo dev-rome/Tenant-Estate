@@ -1,6 +1,6 @@
 ## Tenant-Estate
 Home/Apartment listing app.
-https://enigmatic-anchorage-66839.herokuapp.com/buy
+- https://enigmatic-anchorage-66839.herokuapp.com/buy
 
 ## Project Description
 Tenant-Estate is a home/apartment listing app that allows user to rent or sell their property. 
