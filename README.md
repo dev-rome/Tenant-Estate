@@ -27,6 +27,11 @@ There is also a map for the user to see the location of the home/apartment they 
 - JavaScript
 - CSS
 - BootStrap
+- Express
+- Mongoose
+- Passport
+- MapBox
+- Connect-flash
 
 ## User Stories
 ### MVP Goals
